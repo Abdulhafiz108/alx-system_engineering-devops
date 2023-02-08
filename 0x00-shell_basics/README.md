@@ -8,4 +8,5 @@ Script 6-firstdirectory creates a script that creates a directory named my_first
 Script 7-movethatfile moves the file betty from /tmp/ to /tmp/my_first_directory.
 Script 8-firstdelete deletes the file betty in /tmp/my_first_directory
 Script 9-firstdirdeletion deletes my_first_directory from /tmp
-Script 10-back changes the working directory to the previous one 
+Script 10-back changes the working directory to the previous one
+Script 11-lists lists all hiddens files in the current directory, parent directory and /boot all in long format. 
