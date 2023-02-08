@@ -12,3 +12,4 @@ Script 10-back changes the working directory to the previous one
 Script 11-lists lists all hiddens files in the current directory, parent directory and /boot all in long format.
 Script 12-file_type writes a script that prints the type of the file named iamafile located in the /tmp directory
 Script 13-symbolic_link creates a symbolic link named __ls__ to /bin/ls in current directory.
+Script 14-copy_html copies all the HTML files in the working directory to the parent directory but only copies unexisting files and newer ones.
