@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # This script displays numbers from 1 t0 100 but displays FizzBuzz when the number is a multiple of 3 and 5 , displays Fizz when the number is multiple of 3, displays Buzz when the number is a multiple of 5 and otherwise, displays the number.
 
-for ((i=0; i <= 100; i++))
+for ((i=1; i <= 100; i++))
 do
 	if ((i % 3 == 0 && i % 5 == 0))
 	then
