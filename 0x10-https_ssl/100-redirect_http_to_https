@@ -1,0 +1,16 @@
+frontend haproxy_balancer
+    bind *:80
+    bind *:443 ssl crt /etc/letsencrypt/live/www.topluka.tech/www.topluka.tech.pem
+    redirect scheme https code 301 if !{ ssl_fc }
+    mode http
+    default_backend webservers
+    timeout client 30s
+    timeout server 30s
+
+backend webservers
+    mode http
+    balance roundrobin
+    timeout server 30s
+    timeout connect 30s
+    server 300766-web-01 35.174.176.83:80 check
+    server 300766-web-02 54.89.36.249:80 check
