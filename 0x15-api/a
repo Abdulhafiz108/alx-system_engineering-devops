@@ -1,0 +1,6 @@
+#!/bin/bash
+
+my_commit=""
+echo "Input your commit:"
+read my_commit
+git add .; git commit -m "$my_commit"; git push
